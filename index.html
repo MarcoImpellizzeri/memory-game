@@ -21,8 +21,34 @@
 
 <body>
     <div id="app">
-        
+        <div class="my-container d-flex">
+            <!-- nav per l'utente del gioco -->
+            <div class="nav-container d-flex flex-column justify-content-between p-2">
+                <ul class="list-group text-center">
+                    <button class="list-group-item list-group-item-action"><i class="fa-solid fa-gamepad"></i> Nuova
+                        partita</button>
+                </ul>
+                <ul class="list-group text-center">
+                    <li class="list-group-item">Seleziona Difficolta`</li>
+                    <button class="list-group-item list-group-item-action"><i class="fa-solid fa-thumbs-up"></i>
+                        Facile</button>
+                    <button class="list-group-item list-group-item-action"><i class="fa-solid fa-fire"></i>
+                        Difficile</button>
+                </ul>
+                <ul class="list-group">
+                    <li class="list-group-item text-center">Punteggio</li>
+                    <li class="list-group-item">Coppie trovate:</li>
+                    <li class="list-group-item">Coppie mancanti:</li>
+                    <li class="list-group-item">Totale coppie:</li>
+                </ul>
+            </div>
+
+            <div class="game-side">
+
+            </div>
+        </div>
     </div>
+
     <script src="js/main.js"></script>
 </body>
 

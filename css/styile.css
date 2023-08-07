@@ -1,0 +1,22 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.my-container {
+    border: 1px solid red;
+    width: calc(100vw - 6rem);
+    height: calc(100vh - 6rem);
+    margin: 3rem;
+}
+
+.nav-container {
+    border: 1px solid green;
+    width: 12%;
+    background: rgb(34, 193, 195);
+    background: linear-gradient(0deg, rgba(34, 193, 195, 1) 0%, rgba(163, 45, 253, 1) 100%);
+}
+
+.game-side {
+    border: 1px solid blue;
+    width: 88%;
+}
