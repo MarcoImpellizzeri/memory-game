@@ -20,3 +20,9 @@ body {
     border: 1px solid blue;
     width: 88%;
 }
+
+.col img {
+    height: 200px;
+    width: 150px;
+    object-fit: cover;
+}
